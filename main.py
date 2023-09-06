@@ -5,9 +5,8 @@ class FlatIterator:
          pass
 
     def __iter__(self):
-        print('начали цикл')
-        self.main_index = 0  # курсор основного списка
-        self.nexted_index = 0  # курсор списка вложенного в основной список
+        self.main_index = 0
+        self.nexted_index = 0
         self.numbers=[]
         return self
 
